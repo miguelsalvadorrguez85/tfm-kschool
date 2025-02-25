@@ -134,14 +134,10 @@ Running the Streamlit App Locally
         pip install -r app/requirements.txt
         streamlit run app/app.py
 
-Running Jupyter Notebooks
-
-        pip install jupyter
-        jupyter notebook
 
 ***
 
-🔮 Future Work
+<h3>🔮 Future Work</h3>
 
         📍 Expansion to other wildfire-prone regions.
 
@@ -149,15 +145,15 @@ Running Jupyter Notebooks
 
         📊 Improved interpretability with SHAP and LIME analysis.
 
-👥 Contributors
+<h3>👥 Contributors</h3>
 
-        Mónica Velasco de la Fuente
-        Fernando García Abal
-        Miguel Ángel Salvador Rodríguez
-
-
-🎓 This is a master's final project for the Data Science master's program at KSchool.
+        Mónica Velasco de la Fuente - monicavelasco0@gmail.com
+        Fernando García Abal - fergaabal@gmail.com
+        Miguel Ángel Salvador Rodríguez - miguelsalvador.rguez@gmail.com
 
 
-📖 For detailed methodology, findings, and future directions, refer to the Memoria_TFM_Predicion_Medios_Incendios.pdf included in this repository.
+<h3><u>🎓 This is a master's final project for the Data Science master's program at KSchool</u></h3>
+
+
+<i>📖 For detailed methodology, findings, and future directions, refer to the Memoria_TFM_Predicion_Medios_Incendios.pdf included in this repository.</i>
 
