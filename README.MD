@@ -14,15 +14,15 @@ This repository contains all the data, scripts, and models used in the research,
 
 Contains files necessary for running the FireForecast web application.
 
-📊 DataFrames: Used to display data in the app, including wildfire coordinates and similarity comparisons.
+        📊 DataFrames: Used to display data in the app, including wildfire coordinates and similarity comparisons.
 
-📜 Notebooks: Simple models used for predictions, with final models accessible via the Notebooks menu.
+        📜 Notebooks: Simple models used for predictions, with final models accessible via the Notebooks menu.
 
-🧠 Pretrained Models (``): Models for resource allocation and preprocessing.
+        🧠 Pretrained Models (``): Models for resource allocation and preprocessing.
 
-📌 Requirements.txt : Dependencies required for deploying the app on Streamlit.
+        📌 Requirements.txt : Dependencies required for deploying the app on Streamlit.
 
-▶️ app.py: Main entry point for the Streamlit application.
+        ▶️ app.py: Main entry point for the Streamlit application.
 
 ***
 
@@ -47,15 +47,15 @@ RAW:
 
 PROCESSED:
 
-🗺️ grid_20x20.csv: Grid coordinates.
+        🗺️ grid_20x20.csv: Grid coordinates.
 
-🔥 df_incendios_actualizado.csv: Updated dataset with added locations.
+        🔥 df_incendios_actualizado.csv: Updated dataset with added locations.
 
-📌 df_coordenadas.csv: Catastro dataset used to infer locations for missing coordinates.
+        📌 df_coordenadas.csv: Catastro dataset used to infer locations for missing coordinates.
 
-📊 df_con_grid.csv: Augmented dataset with inferred locations.
+        📊 df_con_grid.csv: Augmented dataset with inferred locations.
 
-🚒 df_con_grid_fire.csv: Final dataset for modeling, including feature engineering transformations.
+        🚒 df_con_grid_fire.csv: Final dataset for modeling, including feature engineering transformations.
 
 ***
 
@@ -65,31 +65,31 @@ Contains Jupyter notebooks and Python scripts for data processing, modeling, and
 
 Notebooks:
 
-📊 01_EDA: Exploratory Data Analysis.
+        📊 01_EDA: Exploratory Data Analysis.
 
-🌍 01.1_mapeo_coordenadas_faltantes: Handling missing wildfire coordinates.
+        🌍 01.1_mapeo_coordenadas_faltantes: Handling missing wildfire coordinates.
 
-🗺️ 01.2_grid.ipynb: Implementation of a spatial grid for smoothing meteorological and terrain variables.
+        🗺️ 01.2_grid.ipynb: Implementation of a spatial grid for smoothing meteorological and terrain variables.
 
-⚙️ 02_Preprocesado: Data preprocessing, correlation analysis, and class balancing.
+        ⚙️ 02_Preprocesado: Data preprocessing, correlation analysis, and class balancing.
 
-🛠️ 03_featureengineering: Feature engineering and variable transformation.
+        🛠️ 03_featureengineering: Feature engineering and variable transformation.
 
-🌎 03.1_Acceso: Extraction of variables from Google Earth Engine (GEE).
+        🌎 03.1_Acceso: Extraction of variables from Google Earth Engine (GEE).
 
-📏 03.2_Constantes: Collection of static variables from GEE.
+        📏 03.2_Constantes: Collection of static variables from GEE.
 
-🤖 04_Modeling/
+        🤖 04_Modeling/
 
-🛩️ 04.1_Avion_anfibio: Models for amphibious aircraft resource prediction.
+        🛩️ 04.1_Avion_anfibio: Models for amphibious aircraft resource prediction.
 
-🛬 04.2_Avion_Terrestre: Models for land-based aircraft resource prediction.
+        🛬 04.2_Avion_Terrestre: Models for land-based aircraft resource prediction.
 
-🚁 04.3_Helicoptero: Helicopter resource prediction models.
+        🚁 04.3_Helicoptero: Helicopter resource prediction models.
 
-🚒 04.4_Autobomba: Fire truck resource prediction models.
+        🚒 04.4_Autobomba: Fire truck resource prediction models.
 
-🚜 04.5_Bulldozer: Bulldozer resource prediction models.
+        🚜 04.5_Bulldozer: Bulldozer resource prediction models.
 
 ***
 
@@ -103,21 +103,21 @@ Contains automated reports generated using pandas-profiling, providing insights 
 
 FireForecast employs the following machine learning algorithms:
 
-🌲 Random Forest
+        🌲 Random Forest
 
-📈 LightGBM (LGBM)
+        📈 LightGBM (LGBM)
 
-🐱 CatBoost
+        🐱 CatBoost
 
-📊 Model Selection & Evaluation
+        📊 Model Selection & Evaluation
 
 Models were evaluated using:
 
-🔢 Classification Metrics: AUC, Precision, Recall, F1-score.
+        🔢 Classification Metrics: AUC, Precision, Recall, F1-score.
 
-📉 Regression Metrics: MAE, RMSE.
+        📉 Regression Metrics: MAE, RMSE.
 
-💰 Economic Impact Analysis: To balance cost and efficiency in resource allocation.
+        💰 Economic Impact Analysis: To balance cost and efficiency in resource allocation.
 
 🚀 Deployment
 
@@ -131,23 +131,23 @@ The Streamlit app loads the best-performing models to provide real-time resource
 
 Running the Streamlit App Locally
 
-pip install -r app/requirements.txt
-streamlit run app/app.py
+        pip install -r app/requirements.txt
+        streamlit run app/app.py
 
 Running Jupyter Notebooks
 
-pip install jupyter
-jupyter notebook
+        pip install jupyter
+        jupyter notebook
 
 ***
 
 🔮 Future Work
 
-📍 Expansion to other wildfire-prone regions.
+        📍 Expansion to other wildfire-prone regions.
 
-🛰️ Integration with real-time satellite imagery.
+        🛰️ Integration with real-time satellite imagery.
 
-📊 Improved interpretability with SHAP and LIME analysis.
+        📊 Improved interpretability with SHAP and LIME analysis.
 
 👥 Contributors
 
