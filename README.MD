@@ -1,10 +1,11 @@
-<h1>FireForecast: Predictive Resource Allocation for Wildfire Management</h1>🔥
+<h1 style="text-align: center;">🔥FireForecast: Predictive Resource Allocation for Wildfire Management🔥</h1>
 
-🚀 Introduction
+
+<h2>🚀 Introduction</h2>
 
 FireForecast is a predictive analytics project aimed at optimizing the allocation of firefighting resources in the Comunidad Valenciana. The project leverages machine learning models to predict the necessary deployment of aerial and ground firefighting units, helping emergency response teams make informed decisions.
 
-This repository contains all the data, scripts, and models used in the research, development, and deployment of the FireForecast application. The application is publicly available at: 🌍 FireForecast Streamlit App.
+This repository contains all the data, scripts, and models used in the research, development, and deployment of the FireForecast application. The application is publicly available at: 🌍 [link](https://firecast.streamlit.app/)
 
 ***
 
