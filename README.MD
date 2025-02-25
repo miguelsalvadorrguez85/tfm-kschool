@@ -1,5 +1,12 @@
 <h1 style="text-align: center;">🔥FireForecast: Predictive Resource Allocation for Wildfire Management🔥</h1>
 
+<h3><u>🎓 This is a master's final project for the Data Science master's program at KSchool</u></h3>
+
+<h3>👥 Contributors</h3>
+
+        Mónica Velasco de la Fuente - monicavelasco0@gmail.com
+        Fernando García Abal - fergaabal@gmail.com
+        Miguel Ángel Salvador Rodríguez - miguelsalvador.rguez@gmail.com
 
 <h2>🚀 Introduction</h2>
 
@@ -151,8 +158,6 @@ Running the Streamlit App Locally
         Fernando García Abal - fergaabal@gmail.com
         Miguel Ángel Salvador Rodríguez - miguelsalvador.rguez@gmail.com
 
-
-<h3><u>🎓 This is a master's final project for the Data Science master's program at KSchool</u></h3>
 
 
 <i>📖 For detailed methodology, findings, and future directions, refer to the Memoria_TFM_Predicion_Medios_Incendios.pdf included in this repository.</i>
