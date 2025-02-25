@@ -6,6 +6,8 @@ FireForecast is a predictive analytics project aimed at optimizing the allocatio
 
 This repository contains all the data, scripts, and models used in the research, development, and deployment of the FireForecast application. The application is publicly available at: 🌍 FireForecast Streamlit App.
 
+***
+
 📂 Repository Structure
 
 1. 📁 app/
@@ -18,15 +20,17 @@ Contains files necessary for running the FireForecast web application.
 
 🧠 Pretrained Models (``): Models for resource allocation and preprocessing.
 
-**📌 **``: Dependencies required for deploying the app on Streamlit.
+**📌 **: Dependencies required for deploying the app on Streamlit.
 
-**▶️ **``: Main entry point for the Streamlit application.
+**▶️ **: Main entry point for the Streamlit application.
+
+***
 
 2. 📂 data/
 
 Contains the datasets used for training and validation.
 
-``
+
 
 📝 df.csv: Original dataset from the Comunidad Valenciana.
 
@@ -51,6 +55,8 @@ Contains the datasets used for training and validation.
 📊 df_con_grid.csv: Augmented dataset with inferred locations.
 
 🚒 df_con_grid_fire.csv: Final dataset for modeling, including feature engineering transformations.
+
+***
 
 3. 📂 Notebooks&scripts/
 
@@ -84,9 +90,13 @@ Notebooks:
 
 🚜 04.5_Bulldozer: Bulldozer resource prediction models.
 
+***
+
 4. 📂 reports/
 
 Contains automated reports generated using pandas-profiling, providing insights into dataset characteristics and feature correlations.
+
+***
 
 🧠 Machine Learning Models
 
@@ -114,6 +124,8 @@ Models are stored in .pkl format for streamlined inference.
 
 The Streamlit app loads the best-performing models to provide real-time resource predictions.
 
+***
+
 🛠️ Installation & Usage
 
 Running the Streamlit App Locally
@@ -125,6 +137,8 @@ Running Jupyter Notebooks
 
 pip install jupyter
 jupyter notebook
+
+***
 
 🔮 Future Work
 
