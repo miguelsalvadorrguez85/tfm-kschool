@@ -20,7 +20,7 @@ This repository contains all the data, scripts, and models used in the research,
 
 <h3>1. 📁 app/</h3>
 
-Contains files necessary for running the FireForecast web application.
+Contains files necessary for running the Firecast web application.
 
         📊 DataFrames: Used to display data in the app, including wildfire coordinates and similarity comparisons.
 
@@ -151,6 +151,8 @@ Running the Streamlit App Locally
         🛰️ Integration with real-time satellite imagery.
 
         📊 Improved interpretability with SHAP and LIME analysis.
+
+        📶 Apply our best models to the deployed visual tool Firecast.
 
 <h3>👥 Contributors</h3>
 
