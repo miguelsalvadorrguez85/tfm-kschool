@@ -1,4 +1,4 @@
-🔥 FireForecast: Predictive Resource Allocation for Wildfire Management
+<h1>FireForecast: Predictive Resource Allocation for Wildfire Management</h1>🔥
 
 🚀 Introduction
 
@@ -8,9 +8,9 @@ This repository contains all the data, scripts, and models used in the research,
 
 ***
 
-📂 Repository Structure
+<h2>📂 Repository Structure</h2>
 
-1. 📁 app/
+<h3>1. 📁 app/</h3>
 
 Contains files necessary for running the FireForecast web application.
 
@@ -26,7 +26,7 @@ Contains files necessary for running the FireForecast web application.
 
 ***
 
-2. 📂 data/
+<h3>2. 📂 data/</h3>
 
 Contains the datasets used for training and validation.
 
@@ -59,7 +59,7 @@ PROCESSED:
 
 ***
 
-3. 📂 Notebooks&scripts/
+<h3>3. 📂 Notebooks&scripts/</h3>
 
 Contains Jupyter notebooks and Python scripts for data processing, modeling, and evaluation.
 
@@ -93,13 +93,13 @@ Notebooks:
 
 ***
 
-4. 📂 reports/
+<h3>4. 📂 reports/</h3>
 
 Contains automated reports generated using pandas-profiling, providing insights into dataset characteristics and feature correlations.
 
 ***
 
-🧠 Machine Learning Models
+<h3>🧠 Machine Learning Models</h3>
 
 FireForecast employs the following machine learning algorithms:
 
@@ -119,14 +119,14 @@ Models were evaluated using:
 
         💰 Economic Impact Analysis: To balance cost and efficiency in resource allocation.
 
-🚀 Deployment
+<h3>🚀 Deployment</h3>
 
 The app is publicly accessible at this [link](https://firecast.streamlit.app/).
 
 
 ***
 
-🛠️ Installation & Usage
+<h3>🛠️ Installation & Usage</h3>
 
 Running the Streamlit App Locally
 
