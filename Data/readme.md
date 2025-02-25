@@ -1,18 +1,18 @@
-## 📂 Datos del Proyecto
+## 📂 Project Data
 
-Esta carpeta contiene los datos utilizados en este proyecto, subdivididos en dos carpetas:
+This folder contains the data used in this project, subdivided into two folders:
 
 ### 📁 Raw
-Contiene el dataset original de la Comunidad Valenciana (`df.csv`) y un resumen de las variables que se encuentran en él, organizadas por cuatro tipos:
+Contains the original dataset from the **Comunidad Valenciana** (`df.csv`) and a summary of the variables categorized into four types:
 
-- 🌍 **Terreno**
-- 🌦 **Condiciones meteorológicas**
-- 📅 **Localización y fecha**
-- 🚒 **Recursos** (posibles variables objetivo)
+- 🌍 **Terrain**
+- 🌦 **Weather conditions**
+- 📅 **Location and date**
+- 🚒 **Resources** (potential target variables)
 
 ### 📁 Processed
-- 🗺 **`grid_20x20.csv`**: Coordenadas de la esquina superior izquierda e inferior derecha de cada una de las cuadrículas del grid.
-- 🔥 **`df_incendios_actualizado.csv`**: Dataset transformado a partir del original, con localización para todas las filas.
-- 🏛 **`df_coordenadas.csv`**: Dataset del catastro que ayuda a situar incendios en municipios sin localización. Se usa un punto fijo del ayuntamiento donde ocurrió el fuego.
-- 📌 **`df_con_grid.csv`**: Dataset original con coordenadas añadidas para incendios sin localización y su ubicación en el grid.
-- 📊 **`df_con_grid_fire.csv`**: Dataset final con transformaciones y data engineering, utilizado para alimentar los modelos.
+- 🗺 **`grid_20x20.csv`**: Coordinates of the top-left and bottom-right corners of each grid cell.
+- 🔥 **`df_incendios_actualizado.csv`**: Transformed dataset based on the original one, with location available for all rows.
+- 🏛 **`df_coordenadas.csv`**: Cadastre dataset used to assign a location to fires in municipalities without precise coordinates. A fixed point at the town hall is used for reference.
+- 📌 **`df_con_grid.csv`**: Original dataset with added coordinates for fires without location and their assigned grid position.
+- 📊 **`df_con_grid_fire.csv`**: Final dataset with transformations and data engineering, used to feed the models.
