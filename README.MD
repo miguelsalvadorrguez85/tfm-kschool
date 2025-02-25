@@ -31,20 +31,21 @@ Contains files necessary for running the FireForecast web application.
 Contains the datasets used for training and validation.
 
 
+RAW:  
 
 📝 df.csv: Original dataset from the Comunidad Valenciana.
 
 📑 summary_variables.xlsx: Description of the dataset variables categorized into:
 
-🏔️ Terrain
+        🏔️ Terrain
 
-🌦️ Meteorological Conditions
+        🌦️ Meteorological Conditions
 
-📍 Location and Date
+        📍 Location and Date
 
-🚒 Resources (Potential Target Variables)
+        🚒 Resources (Potential Target Variables)
 
-``
+PROCESSED:
 
 🗺️ grid_20x20.csv: Grid coordinates.
 
