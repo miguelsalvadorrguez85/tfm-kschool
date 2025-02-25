@@ -154,13 +154,7 @@ Running the Streamlit App Locally
 
         📶 Apply our best models to the deployed visual tool Firecast.
 
-<h3>👥 Contributors</h3>
-
-        Mónica Velasco de la Fuente - monicavelasco0@gmail.com
-        Fernando García Abal - fergaabal@gmail.com
-        Miguel Ángel Salvador Rodríguez - miguelsalvador.rguez@gmail.com
-
-
+***
 
 <i>📖 For detailed methodology, findings, and future directions, refer to the Memoria_TFM_Predicion_Medios_Incendios.pdf included in this repository.</i>
 
