@@ -19,7 +19,7 @@ Contains files necessary for running the FireForecast web application.
 
         📜 Notebooks: Simple models used for predictions, with final models accessible via the Notebooks menu.
 
-        🧠 Pretrained Models (``): Models for resource allocation and preprocessing.
+        🧠 Pretrained Models (.pkl): Models for resource allocation and preprocessing.
 
         📌 Requirements.txt : Dependencies required for deploying the app on Streamlit.
 
@@ -151,11 +151,13 @@ Running Jupyter Notebooks
 
 👥 Contributors
 
-📝 [Your Name]
+        Mónica Velasco de la Fuente
+        Fernando García Abal
+        Miguel Ángel Salvador Rodríguez
 
-🎓 [Your Institution]
 
-📩 Contact: [Your Email]
+🎓 This is a master's final project for the Data Science master's program at KSchool.
+
 
 📖 For detailed methodology, findings, and future directions, refer to the Memoria_TFM_Predicion_Medios_Incendios.pdf included in this repository.
 
