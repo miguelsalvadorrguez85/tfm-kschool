@@ -20,9 +20,9 @@ Contains files necessary for running the FireForecast web application.
 
 🧠 Pretrained Models (``): Models for resource allocation and preprocessing.
 
-**📌 **: Dependencies required for deploying the app on Streamlit.
+📌 Requirements.txt : Dependencies required for deploying the app on Streamlit.
 
-**▶️ **: Main entry point for the Streamlit application.
+▶️ app.py: Main entry point for the Streamlit application.
 
 ***
 
