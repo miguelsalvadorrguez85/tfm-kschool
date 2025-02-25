@@ -121,9 +121,8 @@ Models were evaluated using:
 
 🚀 Deployment
 
-Models are stored in .pkl format for streamlined inference.
+The app is publicly accessible at this [link](https://firecast.streamlit.app/).
 
-The Streamlit app loads the best-performing models to provide real-time resource predictions.
 
 ***
 
